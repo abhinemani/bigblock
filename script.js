@@ -46,7 +46,7 @@ $(document).ready(function(){
         var diffWordsCount = wordsOrder.length;  
         
         if(diffWordsCount < 4) {
-            alert("The given text is too short to analyze. Please try it again.");
+            alert("The given text is too short to analyze. Please use at least 10 words.");
             window.location.reload();
             
         } else { 
