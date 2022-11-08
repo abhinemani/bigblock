@@ -177,3 +177,11 @@ have the svg expand to cover the available width and height */
 .container .chart .graphic text {
   color: hsl(240, 70%, 5%);
 }
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
