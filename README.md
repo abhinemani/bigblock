@@ -16,5 +16,7 @@ Code is all HTML and javascript, so no dependencies necessary.
 ## Who's the name from?
 [Leo](https://www.youtube.com/watch?v=Vm9HZq53rqU)
 
-![Screenshot](https://github.com/abhinemani/bigblock/blob/main/Screenshots/top.png?raw=true)
+![Top Screenshot](https://github.com/abhinemani/bigblock/blob/main/Screenshots/top.png?raw=true)
+![Filled Text Screenshot](https://github.com/abhinemani/bigblock/blob/main/Screenshots/filled.png?raw=true)
+![Bottom Charts Screenshot](https://github.com/abhinemani/bigblock/blob/main/Screenshots/bottom.png?raw=true)
 
