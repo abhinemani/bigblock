@@ -101,7 +101,7 @@ $(document).ready(function(){
 		var muniLength = muniCount * 7.25;
 		console.log(muniCount);
 		console.log(muniLength);
-		document.getElementById('yourmuni').innerHTML = '<path d="M 0 0 h ' + muniLength + '" fill="none" stroke="grey" stroke-width="1"></path><g transform="translate(' + muniLength + ' 0)"><circle cx="0" cy="0" r="2" fill="grey"></circle><text x="5" y="0" dominant-baseline="middle" font-size="4.5">Your Municipality: ' + muniCount + '/7)</text></g>';
+		document.getElementById('yourmuni').innerHTML = '<path d="M 0 0 h ' + muniLength + '" fill="none" stroke="#990000" stroke-width="1"></path><g transform="translate(' + muniLength + ' 0)"><circle cx="0" cy="0" r="2" fill="#990000"></circle><text x="5" y="0" dominant-baseline="middle" font-size="4.5">You (' + muniCount + '/7)</text></g>';
 	});
 	
 	
