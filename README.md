@@ -3,7 +3,7 @@
 ## Demonstration App for (Draft) Research Project
 This is a simple client-side application that allows municipalites (or any organization) assess whether their recruitment materials -- specifically job postings -- reflect the best practices and policies in the literature.
 
-[Demo](abhinemani.com/bigblock)
+[Demo](https://abhinemani.com/bigblock/)
 
 ## How it works
 
