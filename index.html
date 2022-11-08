@@ -187,17 +187,17 @@
   		     document.getElementById('wellness-text').innerHTML = goodnews;}
 			   else { document.getElementById('wellness-text').innerHTML = badnews;
   		   };
-  		   if (text_value.includes("EAP") === true) {
+  		   if (text_value.includes("EAP") || text_value.includes("Employee Assistance Program") === true) {
   		     document.getElementById('eap-text').innerHTML = goodnews;}
 			   else { document.getElementById('eap-text').innerHTML = badnews;
 
   		   };
-  		   if (text_value.includes("transit") === true) {
+  		   if (text_value.includes("Transportation") === true) {
   		     document.getElementById('transit-text').innerHTML = goodnews;}
 			   else { document.getElementById('transit-text').innerHTML = badnews;
 
   		   };
-  		   if (text_value.includes("Training") === true) {
+  		   if (text_value.includes("Training") || text_value.includes("educational") === true) {
   		     document.getElementById('training-text').innerHTML = goodnews;}
 			   else { document.getElementById('training-text').innerHTML = badnews;
 
