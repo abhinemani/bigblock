@@ -216,27 +216,26 @@
           <use href="#chart"></use>
         </svg>
 	  <h4>Where Does Your Municipality Stack up?</h4>
-	  <p>See the full list & methodology <em>(in progress)</em></p>
 		
         <svg class="graphic" viewBox="0 0 100 100" width="300" height="300">
           <g transform="translate(5 5)">
             <path
-              d="M 0 0 v 80"
+              d="M 0 0 v 90"
               fill="none"
               stroke="currentColor"
               stroke-width="0.5"
             ></path>
-            <g transform="translate(0 10)">
+            <g transform="translate(0 10)" id="yourmuni" >
               <path
-                d="M 0 0 h 60"
+                d="M 0 0 h 30"
                 fill="none"
-                stroke="currentColor"
+                stroke="grey"
                 stroke-width="1"
               ></path>
-              <g transform="translate(60 0)">
-                <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
+              <g transform="translate(30 0)">
+                <circle cx="0" cy="0" r="2" fill="grey"></circle>
                 <text x="5" y="0" dominant-baseline="middle" font-size="4.5">
-                  Seattle (5/7)
+                  Your Post (?)
                 </text>
               </g>
             </g>
@@ -250,7 +249,7 @@
               <g transform="translate(50 0)">
                 <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
                 <text x="5" y="0" dominant-baseline="middle" font-size="4.5">
-                  Jaksonville (4/7)
+                  Seattle (5/7)
                 </text>
               </g>
             </g>
@@ -264,7 +263,7 @@
               <g transform="translate(40 0)">
                 <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
                 <text x="5" y="0" dominant-baseline="middle" font-size="4.5">
-                  Baltimore (3/5)
+                  Jacksonville (4/7)
                 </text>
               </g>
             </g>
@@ -278,7 +277,7 @@
               <g transform="translate(35 0)">
                 <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
                 <text x="5" y="0" dominant-baseline="middle" font-size="4.5">
-                  Raliegh (2/5)
+                  Baltimore (3/7)
                 </text>
               </g>
             </g>
@@ -292,14 +291,30 @@
               <g transform="translate(30 0)">
                 <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
                 <text x="5" y="0" dominant-baseline="middle" font-size="4.5">
-                  Kansas City
+                  Raliegh City (2/7)
                 </text>
               </g>
-            </g>
+          </g>
+            <g id="yourmuni" transform="translate(0 85)">
+                <path
+                  d="M 0 0 h 15"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                ></path>
+                <g transform="translate(15 0)">
+                  <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
+                  <text x="5" y="0" dominant-baseline="middle" font-size="4.5">
+                    Your Post (?/7)
+                  </text>
+                </g>
           </g>
         </svg>
-		<p>
-			<a href="https://www.youtube.com/watch?v=Vm9HZq53rqU">About this project</a></p>
+		<p> 
+			See the full list & methodology <em>(in progress)</em><br />
+			<a href="https://www.youtube.com/watch?v=Vm9HZq53rqU">About this project</a>
+			
+		</p>
       </section>
     </div>
 	  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
