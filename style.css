@@ -134,10 +134,23 @@ separate the direct children vertically */
   font-family: inherit;
   outline-color: hsl(210, 90%, 60%);
 }
+
+.container .input .controls button:hover {
+    color: #ffc600;
+    background: hsl(0, 0%, 100%);
+}
+
 .container .input .controls button:last-of-type {
   color: #ffc600;
   background: hsl(0, 0%, 100%);
 }
+
+
+.container .input .controls button:last-of-type:hover {
+    background: #ffc600;
+	color: #ffffff;
+}
+
 
 /* second component
 dedicate half a width to each column */
