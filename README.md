@@ -12,3 +12,6 @@ Tool is built off of simple javascript queries and visualizations to parse user 
 ## Install
 
 Code is all HTML and javascript, so no dependencies necessary.
+
+## Who's the name from?
+[Leo](https://www.youtube.com/watch?v=Vm9HZq53rqU)
