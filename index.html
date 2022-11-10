@@ -173,31 +173,34 @@
 			var goodnews = '<i class="fa-solid fa-square-check  green"></i>';
 			var badnews = '<i class="fa-solid fa-ban fa-lg red"></i>';
 			  
-  		   var text_value = document.getElementById('myText').value;
-  		   if (text_value.includes("Telework") || text_value.includes("work from home") === true) {
+  		   var text_value = document.getElementById('myText').value.toLowerCase();
+		  
+  		   if (text_value.includes("telework") || text_value.includes("work from home") || text_value.includes("hybrid") || text_value.includes("flexible work") === true) {
   		     document.getElementById('telework-text').innerHTML = goodnews ;}
   		       else { document.getElementById('telework-text').innerHTML = badnews;
   		   };
-  		   if (text_value.includes("Insurance") === true) {
+		   
+  		   if (text_value.includes("insurance") === true) {
   		     document.getElementById('insurance-text').innerHTML = goodnews;}
   		 	   else { document.getElementById('insurance-text').innerHTML = badnews;
   		   };
 		   
-  		   if (text_value.includes("Wellness") === true) {
+  		   if (text_value.includes("wellness") === true) {
   		     document.getElementById('wellness-text').innerHTML = goodnews;}
 			   else { document.getElementById('wellness-text').innerHTML = badnews;
   		   };
-  		   if (text_value.includes("EAP") || text_value.includes("Employee Assistance Program") === true) {
+		   
+  		   if (text_value.includes("eap") || text_value.includes("employee assistance program") || text_value.includes("employee assistance programs") === true) {
   		     document.getElementById('eap-text').innerHTML = goodnews;}
 			   else { document.getElementById('eap-text').innerHTML = badnews;
 
   		   };
-  		   if (text_value.includes("Transportation") === true) {
+  		   if (text_value.includes("transportation") || text_value.includes("transit") === true) {
   		     document.getElementById('transit-text').innerHTML = goodnews;}
 			   else { document.getElementById('transit-text').innerHTML = badnews;
 
   		   };
-  		   if (text_value.includes("Training") || text_value.includes("educational") === true) {
+  		   if (text_value.includes("training") || text_value.includes("educational") || text_value.includes("professional development") || text_value.includes("tuition") === true) {
   		     document.getElementById('training-text').innerHTML = goodnews;}
 			   else { document.getElementById('training-text').innerHTML = badnews;
 

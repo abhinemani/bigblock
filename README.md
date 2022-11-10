@@ -3,7 +3,8 @@
 ## Demonstration App for (Draft) Research Project
 This is a simple client-side application that allows municipalites (or any organization) assess whether their recruitment materials -- specifically job postings -- reflect the best practices and policies in the literature.
 
-[Demo](https://abhinemani.com/bigblock/)
+
+[Demo][1]
 
 ## How it works
 
@@ -14,9 +15,16 @@ Tool is built off of simple javascript queries and visualizations to parse user 
 Code is all HTML and javascript, so no dependencies necessary.
 
 ## Who's the name from?
-[Leo](https://www.youtube.com/watch?v=Vm9HZq53rqU)
+[Leo][2]
 
-![Top Screenshot](https://github.com/abhinemani/bigblock/blob/main/Screenshots/top.png?raw=true)
-![Filled Text Screenshot](https://github.com/abhinemani/bigblock/blob/main/Screenshots/filled.png?raw=true)
-![Bottom Charts Screenshot](https://github.com/abhinemani/bigblock/blob/main/Screenshots/bottom.png?raw=true)
+![Top Screenshot][image-1]
+![Filled Text Screenshot][image-2]
+![Bottom Charts Screenshot][image-3]
 
+
+[1]:	https://abhinemani.com/bigblock/
+[2]:	https://www.youtube.com/watch?v=Vm9HZq53rqU
+
+[image-1]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/top.png?raw=true
+[image-2]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/filled.png?raw=true
+[image-3]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/bottom.png?raw=true
