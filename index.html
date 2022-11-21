@@ -145,10 +145,17 @@
 	    <td id="wellness-text" class="score">?</td>
 	  </tr>
   	  <tr>
-  	    <td class="title">EAP</td>
-	    <td id="eap-text" class="score">?</td>
+  	    <td class="title">Paid Time Off</td>
+	    <td id="pto-text" class="score">?</td>
 	  </tr>
-	  <tr>
+  	  <tr>
+  	    <td class="title">Training</td>
+	    <td id="training-text" class="score">?</td>
+	  </tr>
+  	  <tr>
+  	    <td class="title">Tuition</td>
+	    <td id="tuition-text" class="score">?</td>
+	  </tr>
 	    <td class="title" >Telework</td>
 	    <td id="telework-text" class="score">?</td>
 	  </tr>
@@ -156,14 +163,7 @@
   	    <td class="title">Transit Subsidy</td>
 	    <td id="transit-text" class="score">?</td>
 	  </tr>
-  	  <tr>
-  	    <td class="title">Relocation</td>
-	    <td id="relocation-text" class="score">?</td>
-	  </tr>
-  	  <tr>
-  	    <td class="title">Training</td>
-	    <td id="training-text" class="score">?</td>
-	  </tr>
+
         </table>
 		<br>
 		<h4 id="wordletitle" class="hidden"></h4>
@@ -180,44 +180,35 @@
 			var badnews = '<i class="fa-solid fa-ban fa-lg red"></i>';
 			  
   		   var text_value = document.getElementById('myText').value.toLowerCase();
-		  
-  		   if (text_value.includes("telework") || text_value.includes("work from home") || text_value.includes("hybrid") || text_value.includes("flexible work") === true) {
+  		   
+		   if (text_value.includes("insurance") || text_value.includes("medical") || text_value.includes("dental") || text_value.includes("vision") === true) {
+  		     document.getElementById('insurance-text').innerHTML = goodnews ;}
+  		       else { document.getElementById('insurance-text').innerHTML = badnews;
+  		   };	
+		   if (text_value.includes("wellness") || text_value.includes("employee wellness program") || text_value.includes("fitness") || text_value.includes("employee assistance program") === true) {
+  		     document.getElementById('wellness-text').innerHTML = goodnews ;}
+  		       else { document.getElementById('wellness-text').innerHTML = badnews;
+  		   };		   	
+		   if (text_value.includes("PTO") || text_value.includes("paid time off") || text_value.includes("vacation") || text_value.includes("time off accrual") || text_value.includes("paid holidays") === true) {
+  		     document.getElementById('pto-text').innerHTML = goodnews ;}
+  		       else { document.getElementById('pto-text').innerHTML = badnews;
+  		   };	
+		   if (text_value.includes("Professional Development") || text_value.includes("paid time off") || text_value.includes("vacation") || text_value.includes("time off accrual") || text_value.includes("paid holidays") === true) {
+  		     document.getElementById('training-text').innerHTML = goodnews ;}
+  		       else { document.getElementById('training-text').innerHTML = badnews;
+  		   };   
+		   if (text_value.includes("Tuition Reimbursement") || text_value.includes("tuition") || text_value.includes("tuition reimbursement") || text_value.includes("education reimbursement") || text_value.includes("student debt") === true) {
+  		     document.getElementById('tuition-text').innerHTML = goodnews ;}
+  		       else { document.getElementById('tuition-text').innerHTML = badnews;
+  		   };  
+		   if (text_value.includes("Telework") || text_value.includes("teleworking") || text_value.includes("work from home") || text_value.includes("hybrid work") || text_value.includes("remote work") || text_value.includes("telecommute") === true) {
   		     document.getElementById('telework-text').innerHTML = goodnews ;}
   		       else { document.getElementById('telework-text').innerHTML = badnews;
   		   };
-		   
-  		   if (text_value.includes("insurance") === true) {
-  		     document.getElementById('insurance-text').innerHTML = goodnews;}
-  		 	   else { document.getElementById('insurance-text').innerHTML = badnews;
+		   if (text_value.includes("Transportation Subsiday") || text_value.includes("moving costs") || text_value.includes("relocate") || text_value.includes("Free Bus Transportation") || text_value.includes("transit pass") || text_value.includes("commute reimbursement") === true) {
+  		     document.getElementById('transit-text').innerHTML = goodnews ;}
+  		       else { document.getElementById('transit-text').innerHTML = badnews;
   		   };
-		   
-  		   if (text_value.includes("wellness") === true) {
-  		     document.getElementById('wellness-text').innerHTML = goodnews;}
-			   else { document.getElementById('wellness-text').innerHTML = badnews;
-  		   };
-		   
-  		   if (text_value.includes("eap") || text_value.includes("employee assistance program") || text_value.includes("employee assistance programs") === true) {
-  		     document.getElementById('eap-text').innerHTML = goodnews;}
-			   else { document.getElementById('eap-text').innerHTML = badnews;
-
-  		   };
-  		   if (text_value.includes("transportation") || text_value.includes("transit") === true) {
-  		     document.getElementById('transit-text').innerHTML = goodnews;}
-			   else { document.getElementById('transit-text').innerHTML = badnews;
-
-  		   };
-  		   if (text_value.includes("training") || text_value.includes("educational") || text_value.includes("professional development") || text_value.includes("tuition") === true) {
-  		     document.getElementById('training-text').innerHTML = goodnews;}
-			   else { document.getElementById('training-text').innerHTML = badnews;
-
-  		   };
-  		   if (text_value.includes("relocation") === true) {
-  		     document.getElementById('relocation-text').innerHTML = goodnews;}
-			   else { document.getElementById('relocation-text').innerHTML = badnews;
-
-  		   };
-		   
-
   		};
   	</script>
       <section class="chart" style="position: relative">
