@@ -131,7 +131,7 @@
           <use href="#keyboard"></use>
         </svg>
 		<h1>Can Your City Compete in the Future of Work?</h1>
-		<p>Based on rigorous academic research, this tool enables local governments to test if their job postings meet the best practices in the industry. Although many criteria go into recruitment efforts, this application is a simple way to see if municipal job listings reflecting messaging for the Future of Work. Paste your municipality's job description below, and see the scorecard, content breakdown, and rankings.</p>
+		<p>Based on rigorous academic research, this tool enables municipalities to test if their job postings meet the best practices in the industry. Although many criteria go into recruitment efforts, this application is a simple way to see if municipal job listings reflecting messaging for the Future of Work. Paste your municipality's job description below, and see the scorecard, content breakdown, and rankings.</p>
         <textarea id="myText" placeholder="This early *prototype* content analysis tool is for demonstrative, testing purposes only. You can try to paste in one of your municipality's job posts to see how it stacks up against best practices and other large U.S. cities, with the understanding that results and findings will change."></textarea>
         <div class="controls">
           <button id="freq" class="count">Analyze Your Text</button>
@@ -151,27 +151,28 @@
 	    <th colspan="2" >Best Practice Scorecard</th>
 	  </tr>
 	  <tr>
-  	    <td class="title">Insurance</td>
-	    <td id="insurance-text" class="score">?</td>
-  	  </tr>
-  	  <tr>
-  	    <td class="title">Wellness</td>
-	    <td id="wellness-text" class="score">?</td>
-	  </tr>
-  	  <tr>
-  	    <td class="title">Paid Time Off</td>
-	    <td id="pto-text" class="score">?</td>
+	    <td class="title" >Telework</td>
+	    <td id="telework-text" class="score">?</td>
 	  </tr>
   	  <tr>
   	    <td class="title">Training</td>
 	    <td id="training-text" class="score">?</td>
 	  </tr>
   	  <tr>
+  	    <td class="title">Wellness Programs</td>
+	    <td id="wellness-text" class="score">?</td>
+	  </tr>
+	  <tr>
+  	    <td class="title">Insurance</td>
+	    <td id="insurance-text" class="score">?</td>
+  	  </tr>
+  	  <tr>
+  	    <td class="title">Paid Time Off</td>
+	    <td id="pto-text" class="score">?</td>
+	  </tr>
+  	  <tr>
   	    <td class="title">Tuition</td>
 	    <td id="tuition-text" class="score">?</td>
-	  </tr>
-	    <td class="title" >Telework</td>
-	    <td id="telework-text" class="score">?</td>
 	  </tr>
   	  <tr>
   	    <td class="title">Transit Subsidy</td>
@@ -194,6 +195,10 @@
 			var badnews = '<i class="fa-solid fa-ban fa-lg red"></i>';
 			  
   		   var text_value = document.getElementById('myText').value.toLowerCase();
+		   if (text_value.includes("Telework") || text_value.includes("teleworking") || text_value.includes("telework") || text_value.includes("work from home") || text_value.includes("hybrid work") || text_value.includes("remote work") || text_value.includes("telecommute") === true) {
+  		     document.getElementById('telework-text').innerHTML = goodnews ;}
+  		       else { document.getElementById('telework-text').innerHTML = badnews;
+  		   };
   		   
 		   if (text_value.includes("insurance") || text_value.includes("medical") || text_value.includes("dental") || text_value.includes("vision") === true) {
   		     document.getElementById('insurance-text').innerHTML = goodnews ;}
@@ -215,10 +220,6 @@
   		     document.getElementById('tuition-text').innerHTML = goodnews ;}
   		       else { document.getElementById('tuition-text').innerHTML = badnews;
   		   };  
-		   if (text_value.includes("Telework") || text_value.includes("teleworking") || text_value.includes("telework") || text_value.includes("work from home") || text_value.includes("hybrid work") || text_value.includes("remote work") || text_value.includes("telecommute") === true) {
-  		     document.getElementById('telework-text').innerHTML = goodnews ;}
-  		       else { document.getElementById('telework-text').innerHTML = badnews;
-  		   };
 		   if (text_value.includes("Transportation Subsidy") || text_value.includes("relocation") || text_value.includes("moving costs") || text_value.includes("relocate") || text_value.includes("Free Bus Transportation") || text_value.includes("transit subsidy") || text_value.includes("commuting subsidy") || text_value.includes("commute") || text_value.includes("transit pass") || text_value.includes("commute reimbursement") === true) {
   		     document.getElementById('transit-text').innerHTML = goodnews ;}
   		       else { document.getElementById('transit-text').innerHTML = badnews;
