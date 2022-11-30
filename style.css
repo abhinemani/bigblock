@@ -17,6 +17,10 @@ body {
 p {
 	line-height: 1.5em;
 }
+
+h1 {
+	border-bottom: 5px solid #89468B;
+}
 /* by default display the contents in a column */
 .container {
   display: flex;
