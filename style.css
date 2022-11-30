@@ -19,7 +19,7 @@ p {
 }
 
 h1 {
-	border-bottom: 5px solid #89468B;
+	border-bottom: 5px solid #174e98;
 }
 
 /* by default display the contents in a column */
@@ -137,8 +137,8 @@ separate the direct children vertically */
 .container .input .controls button {
   padding: 0.25rem 1rem;
   color: hsl(0, 0%, 100%);
-  background: #ffc600;
-  border: 2px solid #ffc600;
+  background: #174e98;
+  border: 2px solid #174e98;
   border-radius: 4px;
   font-size: 1rem;
   font-family: inherit;
@@ -146,18 +146,18 @@ separate the direct children vertically */
 }
 
 .container .input .controls button:hover {
-    color: #ffc600;
+    color: #174e98;
     background: hsl(0, 0%, 100%);
 }
 
 .container .input .controls button:last-of-type {
-  color: #ffc600;
+  color: #174e98;
   background: hsl(0, 0%, 100%);
 }
 
 
 .container .input .controls button:last-of-type:hover {
-    background: #ffc600;
+    background: #174e98;
 	color: #ffffff;
 }
 
