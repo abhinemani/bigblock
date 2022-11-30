@@ -21,10 +21,10 @@ p {
 }
 
 h1 {
-	font-family: 'Libre Baskerville', 'Exo 2', 'Mukta', sans-serif;
-	border-bottom: 5px solid #CFB5D0;
-	font-style: italic;
+	font-family: baskerville-display-pt, serif;
 	font-weight: 700;
+	font-style: italic;
+	border-bottom: 5px solid #CFB5D0;
 }
 
 h4 {
