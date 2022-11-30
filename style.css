@@ -121,7 +121,7 @@ separate the direct children vertically */
   padding: 0.5rem;
   line-height: 1.5;
   /* style the outline with a color matching the palette */
-  border: 2px solid #dcdcdc;
+  border: 2px solid #fbd95a;
   outline-color: hsl(210, 90%, 60%);
 }
 /* display the .controls button in a row */
