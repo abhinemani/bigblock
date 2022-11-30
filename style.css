@@ -121,7 +121,7 @@ separate the direct children vertically */
   padding: 0.5rem;
   line-height: 1.5;
   /* style the outline with a color matching the palette */
-  border: 2px solid #ffc600;
+  border: 2px solid #174e98;
   outline-color: hsl(210, 90%, 60%);
 }
 /* display the .controls button in a row */
@@ -137,8 +137,8 @@ separate the direct children vertically */
 .container .input .controls button {
   padding: 0.25rem 1rem;
   color: hsl(0, 0%, 100%);
-  background: #89468B;
-  border: 2px solid #89468B;
+  background: #ffc600;
+  border: 2px solid #ffc600;
   border-radius: 4px;
   font-size: 1rem;
   font-family: inherit;
@@ -146,18 +146,18 @@ separate the direct children vertically */
 }
 
 .container .input .controls button:hover {
-    color: #89468B;
+    color: #ffc600;
     background: hsl(0, 0%, 100%);
 }
 
 .container .input .controls button:last-of-type {
-  color: #89468B;
+  color: #ffc600;
   background: hsl(0, 0%, 100%);
 }
 
 
 .container .input .controls button:last-of-type:hover {
-    background: #89468B;
+    background: #ffc600;
 	color: #ffffff;
 }
 
@@ -177,17 +177,17 @@ dedicate half a width to each column */
   text-transform: uppercase;
   font-size: 1.25rem;
   width: 50%;
-  background: #ffc600;
-  border-bottom: 2px solid #fde692;
+  background: #174e98;
+  border-bottom: 2px solid #174e98;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
 }
 /* alternate the background color of the cells describing the data */
 .container .spreadsheet table tr:nth-of-type(even) td {
-  background: #fbd95a;
+  background: #8ba6cb;
 }
 .container .spreadsheet table tr:nth-of-type(odd) td {
-  background: #fdefbb;
+  background: #b9c9e0;
 }
 
 /* third component
