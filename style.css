@@ -116,7 +116,7 @@ separate the direct children vertically */
   padding: 0.5rem;
   line-height: 1.5;
   /* style the outline with a color matching the palette */
-  border: 2px solid #ffc600;
+  border: 2px solid #89468B;
   outline-color: hsl(210, 90%, 60%);
 }
 /* display the .controls button in a row */
@@ -132,8 +132,8 @@ separate the direct children vertically */
 .container .input .controls button {
   padding: 0.25rem 1rem;
   color: hsl(0, 0%, 100%);
-  background: #ffc600;
-  border: 2px solid #ffc600;
+  background: #174E98;
+  border: 2px solid #174E98;
   border-radius: 4px;
   font-size: 1rem;
   font-family: inherit;
@@ -141,18 +141,18 @@ separate the direct children vertically */
 }
 
 .container .input .controls button:hover {
-    color: #ffc600;
+    color: #174E98;
     background: hsl(0, 0%, 100%);
 }
 
 .container .input .controls button:last-of-type {
-  color: #ffc600;
+  color: #174E98;
   background: hsl(0, 0%, 100%);
 }
 
 
 .container .input .controls button:last-of-type:hover {
-    background: #ffc600;
+    background: #174E98;
 	color: #ffffff;
 }
 
@@ -172,17 +172,17 @@ dedicate half a width to each column */
   text-transform: uppercase;
   font-size: 1.25rem;
   width: 50%;
-  background: #ffc600;
-  border-bottom: 2px solid #fde692;
+  background: #89468B;
+  border-bottom: 2px solid #f2f2f2;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
 }
 /* alternate the background color of the cells describing the data */
 .container .spreadsheet table tr:nth-of-type(even) td {
-  background: #fbd95a;
+  background: #DBC7DC;
 }
 .container .spreadsheet table tr:nth-of-type(odd) td {
-  background: #fdefbb;
+  background: #AC7DAD;
 }
 
 /* third component
@@ -190,7 +190,7 @@ have the svg expand to cover the available width and height */
 .container .chart .graphic {
   width: 100%;
   height: auto;
-  color: #ffc600;
+  color: #89468B;
 }
 .container .chart .graphic text {
   color: hsl(240, 70%, 5%);
