@@ -19,7 +19,7 @@ p {
 }
 
 h1 {
-	border-bottom: 5px solid #174e98;
+	border-bottom: 5px solid #89468B;
 }
 
 /* by default display the contents in a column */
@@ -121,7 +121,7 @@ separate the direct children vertically */
   padding: 0.5rem;
   line-height: 1.5;
   /* style the outline with a color matching the palette */
-  border: 2px solid #174e98;
+  border: 2px solid #ffc600;
   outline-color: hsl(210, 90%, 60%);
 }
 /* display the .controls button in a row */
