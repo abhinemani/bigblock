@@ -137,8 +137,8 @@ separate the direct children vertically */
 .container .input .controls button {
   padding: 0.25rem 1rem;
   color: hsl(0, 0%, 100%);
-  background: #174e98;
-  border: 2px solid #174e98;
+  background: #ffc600;
+  border: 2px solid #ffc600;
   border-radius: 4px;
   font-size: 1rem;
   font-family: inherit;
@@ -146,18 +146,18 @@ separate the direct children vertically */
 }
 
 .container .input .controls button:hover {
-    color: #174e98;
+    color: #ffc600;
     background: hsl(0, 0%, 100%);
 }
 
 .container .input .controls button:last-of-type {
-  color: #174e98;
+  color: #ffc600;
   background: hsl(0, 0%, 100%);
 }
 
 
 .container .input .controls button:last-of-type:hover {
-    background: #174e98;
+    background: #ffc600;
 	color: #ffffff;
 }
 
