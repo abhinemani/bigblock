@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   background: #f2f2f2;
   background-size: 50px;
-  font-family: 'Exo 2','Mukta', sans-serif;
+  font-family: 'Exo 2', 'Mukta', sans-serif;
 }
 
 p {
@@ -21,6 +21,7 @@ p {
 h1 {
 	border-bottom: 5px solid #89468B;
 }
+
 /* by default display the contents in a column */
 .container {
   display: flex;
@@ -136,8 +137,8 @@ separate the direct children vertically */
 .container .input .controls button {
   padding: 0.25rem 1rem;
   color: hsl(0, 0%, 100%);
-  background: #ffc600;
-  border: 2px solid #ffc600;
+  background: #89468B;
+  border: 2px solid #89468B;
   border-radius: 4px;
   font-size: 1rem;
   font-family: inherit;
@@ -145,18 +146,18 @@ separate the direct children vertically */
 }
 
 .container .input .controls button:hover {
-    color: #ffc600;
+    color: #89468B;
     background: hsl(0, 0%, 100%);
 }
 
 .container .input .controls button:last-of-type {
-  color: #ffc600;
+  color: #89468B;
   background: hsl(0, 0%, 100%);
 }
 
 
 .container .input .controls button:last-of-type:hover {
-    background: #ffc600;
+    background: #89468B;
 	color: #ffffff;
 }
 
@@ -176,17 +177,17 @@ dedicate half a width to each column */
   text-transform: uppercase;
   font-size: 1.25rem;
   width: 50%;
-  background: #89468B;
-  border-bottom: 2px solid #f2f2f2;
+  background: #ffc600;
+  border-bottom: 2px solid #fde692;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
 }
 /* alternate the background color of the cells describing the data */
 .container .spreadsheet table tr:nth-of-type(even) td {
-  background: #DBC7DC;
+  background: #fbd95a;
 }
 .container .spreadsheet table tr:nth-of-type(odd) td {
-  background: #B890B9;
+  background: #fdefbb;
 }
 
 /* third component
@@ -194,7 +195,7 @@ have the svg expand to cover the available width and height */
 .container .chart .graphic {
   width: 100%;
   height: auto;
-  color: #89468B;
+  color: #ffc600;
 }
 .container .chart .graphic text {
   color: hsl(240, 70%, 5%);
