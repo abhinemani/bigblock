@@ -29,6 +29,8 @@ h1 {
 
 h4 {
 	margin-bottom: 10px;
+	border-bottom: 3px solid #CFB5D0;
+	padding-bottom: 5px;
 }
 
 /* by default display the contents in a column */
@@ -186,8 +188,8 @@ dedicate half a width to each column */
   text-transform: uppercase;
   font-size: 1.25rem;
   width: 50%;
-  background: #174e98;
-  border-bottom: 2px solid #b9c9e0;
+  background: #ffc600;
+  border-bottom: 2px solid #ffd74d;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
 }
