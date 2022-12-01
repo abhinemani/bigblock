@@ -275,3 +275,10 @@ have the svg expand to cover the available width and height */
 .title a {
 	border-bottom: 0px;
 }
+
+footer {
+	  display: flex;
+	  flex-direction: column;
+	  width: 100px;
+	  margin: 1rem auto;
+}
