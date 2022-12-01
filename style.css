@@ -250,17 +250,7 @@ have the svg expand to cover the available width and height */
   transition: opacity 0.3s;
 }
 
-/* Tooltip arrow */
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
+
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
@@ -274,11 +264,4 @@ have the svg expand to cover the available width and height */
 
 .title a {
 	border-bottom: 0px;
-}
-
-footer {
-	  display: flex;
-	  flex-direction: column;
-	  max-width: 600px;
-	  margin: 1rem auto;
 }
