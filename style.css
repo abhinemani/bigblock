@@ -265,3 +265,7 @@ have the svg expand to cover the available width and height */
 .title a {
 	border-bottom: 0px;
 }
+
+.chart p a {
+	color: #89468b;
+}
