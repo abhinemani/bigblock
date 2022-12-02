@@ -17,14 +17,14 @@ Code is all HTML and javascript, so no dependencies necessary.
 ## Who's the name from?
 [Leo][2]
 
-![Top Screenshot][image-1]
-![Filled Text Screenshot][image-2]
+![iPhone Screenshot][image-1]
+![Laptop Text Screenshot][image-2]
 ![Bottom Charts Screenshot][image-3]
 
 
 [1]:	https://abhinemani.com/bigblock/
 [2]:	https://www.youtube.com/watch?v=Vm9HZq53rqU
 
-[image-1]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/top.png?raw=true
-[image-2]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/filled.png?raw=true
+[image-1]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/iphone.png?raw=true
+[image-2]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/laptop.png?raw=true
 [image-3]:	https://github.com/abhinemani/bigblock/blob/main/Screenshots/bottom.png?raw=true
