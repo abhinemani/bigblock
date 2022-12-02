@@ -11,7 +11,6 @@ Tool is built off of simple javascript queries and visualizations to parse user 
 
 ![iPhone Screenshot][image-1]
 ![Laptop Text Screenshot][image-2]
-![Bottom Charts Screenshot][image-3]
 
 ## Install
 
