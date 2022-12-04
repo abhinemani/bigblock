@@ -241,7 +241,7 @@ have the svg expand to cover the available width and height */
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 100%;
   left: 50%;
   margin-left: -120px;
 
@@ -256,8 +256,6 @@ have the svg expand to cover the available width and height */
 	}
 	
 }
-
-
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
