@@ -276,3 +276,34 @@ have the svg expand to cover the available width and height */
 .chart p a {
 	color: #89468b;
 }
+
+/* second component
+dedicate half a width to each column */
+.container .coding table tr th {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  width: auto;
+  background: #ffc600;
+  border-bottom: 2px solid #ffd74d;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  padding-left: 10px;
+  text-align: left;
+  
+}
+/* alternate the background color of the cells describing the data */
+.container .coding table tr:nth-of-type(even) td {
+  background: #f2f2f2;
+  padding: 10px;
+}
+.container .coding table tr:nth-of-type(odd) td {
+  background: #ffffff;
+  padding: 10px;
+  
+}
+
+.contrainer .coding td.title {
+	width:1px;
+	white-space:nowrap;
+    padding-left: 10px;
+}

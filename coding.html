@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Municipal Recruitment Best Practices Map</title>
+	<script src="https://kit.fontawesome.com/23729f37bc.js" crossorigin="anonymous"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NR91N9YVKX"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-NR91N9YVKX');
+	</script>
+	  <link rel="stylesheet" href="https://use.typekit.net/mks5yas.css">
+
+	  
+  </head>
+  <body>
+	  
+    <!-- svg icons used throughout the project, in the corner of each meaningful container -->
+    <svg style="display: none" viewBox="0 0 100 100" width="40" height="40">
+      <!-- ! each symbol has its own viewbox -->
+      <symbol id="keyboard" viewBox="0 0 100 60">
+        <rect
+          x="0"
+          y="0"
+          width="100"
+          height="60"
+          rx="5"
+          fill="#ffc600"
+        ></rect>
+        <g id="keys">
+          <rect
+            id="key"
+            x="14"
+            y="10"
+            width="12"
+            height="10"
+            rx="2"
+            fill="#fdefbb"
+          ></rect>
+          <use href="#key" transform="translate(20 0)"></use>
+          <use href="#key" transform="translate(40 0)"></use>
+          <use href="#key" transform="translate(60 0)"></use>
+        </g>
+        <use href="#keys" transform="translate(0 15)"></use>
+        <use href="#keys" transform="translate(0 30)"></use>
+        <rect
+          transform="translate(34 30)"
+          x="0"
+          y="10"
+          width="32"
+          height="10"
+          rx="2"
+          fill="#fbd95a"
+        ></rect>
+      </symbol>
+      <symbol id="table" viewBox="0 0 90 100">
+        <rect
+          x="0"
+          y="0"
+          width="90"
+          height="100"
+          rx="5"
+          fill="#ffc600"
+        ></rect>
+        <rect
+          id="row"
+          x="15"
+          y="19.5"
+          width="60"
+          height="6"
+          fill="#fdefbb"
+        ></rect>
+        <use
+          id="tone"
+          href="#row"
+          transform="translate(0 20)"
+          opacity="0.7"
+        ></use>
+        <!-- apparently it is possible to use another <use> element -->
+        <use href="#row" transform="translate(0 40)"></use>
+        <use href="#tone" transform="translate(0 40)"></use>
+      </symbol>
+
+      <symbol id="chart" viewBox="0 0 100 100">
+        <rect
+          x="0"
+          y="0"
+          width="100"
+          height="100"
+          rx="5"
+          fill="#ffc600"
+        ></rect>
+        <g fill="#fdefbb">
+          <rect x="20" y="15" width="60" height="12" rx="2"></rect>
+          <rect x="20" y="41.5" width="30" height="12" rx="2"></rect>
+          <rect x="20" y="68" width="20" height="12" rx="2"></rect>
+          <circle cx="66" cy="66" r="14"></circle>
+        </g>
+      </symbol>
+    </svg>
+
+    <!-- in a wrapper container specify three areas for the three components
+        - main, describing a textarea and button elements to interact with the application
+        - section, nesting the table highglighting the words by frequency
+        - section, including the svg visually relating the same frequency
+        -->
+    <div class="container">
+      <main class="input">
+        <svg class="icon" viewBox="0 0 100 60" width="75" height="45">
+          <use href="#keyboard"></use>
+        </svg>
+		<br />
+		<section class="coding">
+	          <table>
+	  	  <tr>
+	  	    <th colspan="2" >Coding Dictionary</th>
+	  	  </tr>
+	  	  <tr>
+	  	    <td class="title" >Telework <a class="tooltip"><i class="fa-solid fa-circle-info"></i>
+	  	  	   <span class="tooltiptext">Telework (also known as telecommuting or remote work) describes the practice of employees working outside of the physical office campus.</span></td>
+	  	    <td id="telework-text" class="score">telework OR "work from home" OR "hybrid work" OR "flexible work arrangements"</td>
+	  	  </tr>
+	    	  <tr>
+	    	    <td class="title">Training Programs <a class="tooltip"><i class="fa-solid fa-circle-info"></i>
+	  	  	    <span class="tooltiptext">Career training (or professional development) describes educational programs for employees to enhance their skills and experience.</span></td>
+	  	    <td id="training-text" class="score">"professional development" OR "job training" OR "training opportunities" OR "skill development"</td>
+	  	  </tr>
+	    	  <tr>
+	    	    <td class="title">Wellness Programs <a class="tooltip"> <i class="fa-solid fa-circle-info"></i>
+	  	  	     <span class="tooltiptext">Wellness programs are designed to improve and promote health and fitness mentally and physically.</span></td>
+	  	    <td id="wellness-text" class="score">"wellness" OR "employee wellness program" OR "healthy" OR "fitness" OR "Employee assistance program" OR EAP</td>
+	  	  </tr>
+	  	  <tr>
+	    	    <td class="title">Insurance Plans <a class="tooltip"><i class="fa-solid fa-circle-info"></i>
+	  	  	    <span class="tooltiptext">Insurance benefits include health, dental, eye, and other relevant medical needs.</span></td>
+	  	    <td id="insurance-text" class="score">"health insurance" OR "medical coverage" OR "medical insurance"</td>
+	    	  </tr>
+	    	  <tr>
+	    	    <td class="title">Paid Time Off <a class="tooltip"><i class="fa-solid fa-circle-info"></i>
+	  	  	    <span class="tooltiptext">Paid time off is personal time that employees take to spend out of the office (and not working) while still receiving salary and benefits.</span></td>
+	  	    <td id="pto-text" class="score">"paid time off" OR "PTO" OR "paid holidays" OR "vacation" OR "time off accrual"</td>
+	  	  </tr>
+	    	  <tr>
+	    	    <td class="title">Tuition Assistance <a class="tooltip"><i class="fa-solid fa-circle-info"></i>
+	  	  	    <span class="tooltiptext">Tuition assistance programs give employees compensation for the past or future cost of education tutition.</span></td>
+	  	    <td id="tuition-text" class="score">tuition OR "tuition reimbursement" OR "education reimbursement" OR "student debt" OR "student loans"</td>
+	  	  </tr>
+	    	  <tr>
+	    	    <td class="title">Transit Subsidies <a class="tooltip"><i class="fa-solid fa-circle-info"></i>
+	  	  	    <span class="tooltiptext">Transportation subsidies refer to employer benefit programs that reduce the cost of moving (including relocation assistance) or commuting to the workplace.</span></td>
+	  	    <td id="transit-text" class="score">relocation OR "moving costs" OR relocate OR "Free Bus Transportation" OR "transit pass" OR "transit expense"</td>
+	  	  </tr>
+
+	          </table>
+		</section>
+      </main>
+    </div>
+	  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/npm/chart.js@2.8.0'></script><script  src="script.js"></script>
+	
+  </body>
+  
+</html>
